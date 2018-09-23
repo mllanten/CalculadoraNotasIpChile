@@ -219,6 +219,6 @@
         android:maxLength="3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView14" />s
+        app:layout_constraintStart_toEndOf="@+id/textView14" />
 
 </android.support.constraint.ConstraintLayout>

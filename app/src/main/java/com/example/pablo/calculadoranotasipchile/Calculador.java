@@ -37,6 +37,8 @@ public class Calculador extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculador);
 
+
+
         epr1 = (EditText) findViewById(R.id.epr1);
         epe1 = (EditText) findViewById(R.id.epe1);
         epr2 = (EditText) findViewById(R.id.epr2);

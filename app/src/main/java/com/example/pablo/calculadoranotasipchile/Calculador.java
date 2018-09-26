@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class Calculador extends AppCompatActivity {
 
@@ -55,7 +54,8 @@ public class Calculador extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                double notaepr1 = Double.parseDouble(epr1.getText().toString());
+
+                Double notaepr1 = Double.parseDouble(epr1.getText().toString());
                 Double notaepe1 = Double.parseDouble(epe1.getText().toString());
                 Double notaepr2 = Double.parseDouble(epr2.getText().toString());
                 Double notaepe2 = Double.parseDouble(epe2.getText().toString());
